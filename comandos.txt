@@ -1,0 +1,41 @@
+*********
+--levantar ms
+npm run start:dev
+**********
+
+1.- Creacion de proyecto 
+nest new products-ms
+
+2.- creacion de un recurso
+nest g  resource produtcs --no-spec
+
+3.- Instalacion de paquetes para validaciones para DTO
+npm i class-validator class-transformer 
+
+4.- Configurar variables de entorno
+ npm i dotenv joi
+
+5.- instalacion de ORM prima para acceso a base de datos
+documentacion de prisma: https://docs.nestjs.com/recipes/prisma
+* Instalacion de prisma
+  npm i prisma --save-dev
+* Inicializacion de prisma 
+  npx prisma init
+* migracion de prisma: prepara la bd
+  npx prisma migrate dev --name init  
+* instalar prisma client
+  npm install @prisma/client  
+* Si queremos migrar un nuevo campo por ejemplo en este caso el campo available
+  npx prisma migrate dev --name available
+
+
+################# CONVERT TO MICROSERVICE ##############33
+
+1.-  npm i --save @nestjs/microservices
+
+
+
+
+
+
+
