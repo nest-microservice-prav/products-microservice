@@ -42,5 +42,10 @@ npm i --save nats
 
 
 
-
+### Levantando con docker ####
+sucede que cuando ejcutamos el docker compose tiende a quedarde pegado la migracion
+de prisma, por lo que antes de ejecutar el docker compose primero nos dirigimos al 
+ms de order y hacemos la migracion con el comando
+npx prisma migrate dev --name init
+luego ejecutamos el comando docker-compose up --build
 
