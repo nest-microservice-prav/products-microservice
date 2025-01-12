@@ -35,6 +35,11 @@ documentacion de prisma: https://docs.nestjs.com/recipes/prisma
 
 
 
+############### Convert to NATS#############3
+
+1.- instalamos dependencias de NATS
+npm i --save nats
+
 
 
 
